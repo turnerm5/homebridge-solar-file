@@ -1,16 +1,16 @@
 {
-  "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
+  "private": false,
+  "displayName": "Solar Output",
+  "name": "homebridge-solar-file",
   "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "description": "Reads a static file and creates a light sensor accessory.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "git://github.com/turnerm5/homebridge-solar-file.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/turnerm5/homebridge-solar-file/issues"
   },
   "engines": {
     "node": ">=14.18.1",
